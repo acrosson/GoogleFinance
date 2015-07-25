@@ -12,7 +12,20 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let googleFinance = GoogleFinance()
+        let ticker = "TWTR"
+        
+        googleFinance.fetchQuoteForTicker(ticker, onCompletion: { (quote:Dictionary<String, String>?, error:NSError?) -> Void in
+            if (quote) != nil {
+                let q = Quote(dict: quote!)
+                println("\(q.ticker!)")
+                println("Last: \(q.price!) \(q.changePrice!) \(q.changePercent!)")
+                println("After Hours: \(q.afterHoursPrice!) \(q.afterHoursChangePrice!) \(q.afterHoursChangePercent!)")
+                println("\(q.time!)")
+            }
+        })
+        
     }
 
     override func didReceiveMemoryWarning() {

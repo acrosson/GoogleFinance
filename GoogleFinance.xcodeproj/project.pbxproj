@@ -16,6 +16,7 @@
 		FC25926C1B631D1300E6A7FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC25926A1B631D1300E6A7FF /* LaunchScreen.xib */; };
 		FC2592781B631D1300E6A7FF /* GoogleFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2592771B631D1300E6A7FF /* GoogleFinanceTests.swift */; };
 		FC2592821B631DA000E6A7FF /* GoogleFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2592811B631DA000E6A7FF /* GoogleFinance.swift */; };
+		FC2592841B63330700E6A7FF /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2592831B63330600E6A7FF /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		FC2592761B631D1300E6A7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2592771B631D1300E6A7FF /* GoogleFinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFinanceTests.swift; sourceTree = "<group>"; };
 		FC2592811B631DA000E6A7FF /* GoogleFinance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleFinance.swift; sourceTree = "<group>"; };
+		FC2592831B63330600E6A7FF /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				FC2592611B631D1300E6A7FF /* AppDelegate.swift */,
 				FC2592631B631D1300E6A7FF /* ViewController.swift */,
 				FC2592811B631DA000E6A7FF /* GoogleFinance.swift */,
+				FC2592831B63330600E6A7FF /* Quote.swift */,
 				FC2592651B631D1300E6A7FF /* Main.storyboard */,
 				FC2592681B631D1300E6A7FF /* Images.xcassets */,
 				FC25926A1B631D1300E6A7FF /* LaunchScreen.xib */,
@@ -340,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC2592841B63330700E6A7FF /* Quote.swift in Sources */,
 				FC2592641B631D1300E6A7FF /* ViewController.swift in Sources */,
 				FC2592621B631D1300E6A7FF /* AppDelegate.swift in Sources */,
 				FC2592821B631DA000E6A7FF /* GoogleFinance.swift in Sources */,
