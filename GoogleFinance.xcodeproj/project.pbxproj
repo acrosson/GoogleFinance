@@ -13,6 +13,7 @@
 		FC2592691B631D1300E6A7FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2592681B631D1300E6A7FF /* Images.xcassets */; };
 		FC25926C1B631D1300E6A7FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC25926A1B631D1300E6A7FF /* LaunchScreen.xib */; };
 		FC2592781B631D1300E6A7FF /* GoogleFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2592771B631D1300E6A7FF /* GoogleFinanceTests.swift */; };
+		FC2592821B631DA000E6A7FF /* GoogleFinance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2592811B631DA000E6A7FF /* GoogleFinance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FC2592711B631D1300E6A7FF /* GoogleFinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleFinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2592761B631D1300E6A7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC2592771B631D1300E6A7FF /* GoogleFinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleFinanceTests.swift; sourceTree = "<group>"; };
+		FC2592811B631DA000E6A7FF /* GoogleFinance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleFinance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FC2592611B631D1300E6A7FF /* AppDelegate.swift */,
 				FC2592631B631D1300E6A7FF /* ViewController.swift */,
+				FC2592811B631DA000E6A7FF /* GoogleFinance.swift */,
 				FC2592651B631D1300E6A7FF /* Main.storyboard */,
 				FC2592681B631D1300E6A7FF /* Images.xcassets */,
 				FC25926A1B631D1300E6A7FF /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				FC2592641B631D1300E6A7FF /* ViewController.swift in Sources */,
 				FC2592621B631D1300E6A7FF /* AppDelegate.swift in Sources */,
+				FC2592821B631DA000E6A7FF /* GoogleFinance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
